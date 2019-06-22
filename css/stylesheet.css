@@ -58,7 +58,7 @@ p {
 
 /*! Sections */
 section {
-  padding: 100px 0;
+  padding: 0;
 }
 
 section h2 {
@@ -129,7 +129,7 @@ section h2 {
 }
 
 #mainNav .navbar-nav > li > a {
-  font-size: 11px;
+  font-size: 13px;
   font-family: 'Catamaran', 'Helvetica', 'Arial', 'sans-serif';
   letter-spacing: 2px;
   text-transform: uppercase;
@@ -280,6 +280,8 @@ section.partylife .carousel-item {
 
 
 
+
+
 @media (min-width: 992px) {
   section.partylife {
     padding-top: 0;
@@ -424,6 +426,8 @@ section.contact {
 section.contact h2 {
   margin-top: 0;
   margin-bottom: 25px;
+  color: white;
+  font-size: 30px;
 }
 
 section.contact h2 i {
@@ -535,4 +539,16 @@ footer ul li a:hover, footer ul li a:focus, footer ul li a:active, footer ul li 
 .btn-xl {
   font-size: 11px;
   padding: 15px 45;
+}
+
+/*! PHOTOGRAPHY PAGE */
+
+.carousel-item {
+  height: 100vh;
+  min-height: 350px;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
