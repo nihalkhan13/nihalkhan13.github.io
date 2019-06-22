@@ -178,6 +178,7 @@ section h2 {
   #mainNav.navbar-shrink {
     border-color: rgba(34, 34, 34, 0.1);
     background-color: rgba(34, 34, 34, 0.3);
+    
   }
   #mainNav.navbar-shrink .navbar-brand {
     color: #ffffff;
