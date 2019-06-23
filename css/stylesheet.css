@@ -206,7 +206,7 @@ header.masthead {
   padding-bottom: 100px;
   color: white;
   background: url("../img/bg-pattern.png"), #ffffff;
-  background: url("../img/bg-pattern.png"), -webkit-gradient(linear, right top, left top, from(#000000), to(#ffffff));
+  /*! background: url("../img/bg-pattern.png"), -webkit-gradient(linear, right top, left top, from(#000000), to(#ffffff));*/
   background: url("../img/bg-pattern.png"), linear-gradient(to right, #b07fcef0, #24dcb8);
 }
 
@@ -218,7 +218,7 @@ header.masthead .header-content {
 
 header.masthead .header-content h1 {
   text-align: left;
-}
+}  
 
 header.masthead .header-content h2 {
   font-size: 1.75rem;
@@ -235,7 +235,8 @@ header.masthead .device-container .screen img {
   border-radius: 3px;
 }
 
-@media (min-width: 992px) {
+@media (min-width: 992px) 
+{
   header.masthead {
     height: 100vh;
     min-height: 775px;
@@ -500,6 +501,13 @@ footer ul li a:hover, footer ul li a:focus, footer ul li a:active, footer ul li 
 
 /*! Background */
 .bg-primary {
+  background: rgb(34, 34, 34);
+  background: -webkit-gradient(linear, left top, left bottom, from(#ffffff), to(#ac01f0));
+  background: linear-gradient(#b07fcef0, #24dcb8);
+}
+
+/*! Background (Photography Social Icons) */
+.bg-primary .contact {
   background: rgb(34, 34, 34);
   background: -webkit-gradient(linear, left top, left bottom, from(#ffffff), to(#ac01f0));
   background: linear-gradient(#b07fcef0, #24dcb8);
